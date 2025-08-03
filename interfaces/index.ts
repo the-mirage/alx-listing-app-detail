@@ -8,6 +8,7 @@ export interface PropertyProps {
   };
   rating: number;
   category: string[];
+  description: string;
   price: number;
   offers: {
     bed: string;
